@@ -198,6 +198,8 @@ input {
 }
 
 .output {
+    align-self: center;
+    margin-top: 96px;
     border: 4px solid var(--clr-russian-white);
     background-color: var(--clr-russian-white);
     border-radius: 8px;
