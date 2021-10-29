@@ -1,0 +1,220 @@
+:root {
+    --clr-background: #494953;
+    --clr-russian-white: #EDF2F6;
+    --clr-russian-blue: #6A7EFC;
+    --clr-russian-red: #FF5656;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+@media screen and (width: 1024px) {
+
+html {
+    background-color: var(--clr-background);
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-fxc {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+.fxc-row {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.fxc-col {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+h1 {
+    position: relative;
+    top: -101px;
+    left: -183px;
+    padding: 96px 144px 72px 144px;
+    align-self: flex-start;
+    font-size: 32px;
+    text-align: right;
+    transform: rotate(-33.75deg);
+    background-color: var(--clr-russian-white);
+    font-weight: bold;
+}
+
+.hdg-beginning {
+    position: relative;
+    top: 6px;
+    left: -31px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.top-div {
+    position: relative;
+    align-self: flex-start;
+    padding: 16px;
+    width: 100vw;
+    height: 50vh;
+}
+  
+p {
+    text-align: center;
+    font-size: 24px;
+    color: var(--clr-russian-blue);
+}
+  
+.input-els {
+    color: var(--clr-russian-white);
+    text-transform: uppercase;
+    padding: 16px;
+    letter-spacing: 2px;
+}
+
+#input-el-top {
+    position: relative;
+    top: -273px;
+    left: -119px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    transform: rotate(-33.75deg);
+    padding: 32px 240px 32px 80px;
+    box-shadow: black 8px 8px 8px;
+}
+
+#input-el-top > input {
+    position: relative;
+    margin-left: 40px;
+    width: 184px;
+}
+
+#input-el-bottom {
+    position: relative;
+    top: -204px;
+    left: -192px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    transform: rotate(-33.75deg);
+    padding: 32px 80px 32px 240px;
+    box-shadow: black 8px 8px 4px;
+}
+
+#input-el-bottom > input {
+    position: relative;
+    margin-left: 40px;
+    width: 184px;
+    left: -24px;
+}
+
+#input-el-bottom > label {
+    position: relative;
+    left: -15px;
+}
+
+.input-els > label {
+    font-size: 24px;
+}
+
+input {
+    text-align: center;
+    height: 32px;
+}
+
+.btns {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold
+}
+
+#russify-btn {
+    position: relative;
+    top: -253px;
+    right: 37px;
+    width: 177px;
+    height: 177px;
+    padding: 0;
+    transform: rotate(8deg);
+    background-color: transparent;
+    border: solid 4px var(--clr-russian-white);
+    border-left-color: var(--clr-russian-blue);
+    border-right-color: var(--clr-russian-blue);
+    border-bottom-color: var(--clr-russian-red);
+    box-shadow: black 8px 8px;
+    color: var(--clr-russian-white);
+    transition: all .25s;
+    font-size: 24px;
+}
+
+#german-copy {
+    position: relative;
+    top: -387px;
+    right: -672px;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    transform: rotate(36deg);
+    font-size: 8px;
+    background-color: var(--clr-russian-blue);
+    color: var(--clr-russian-white);
+    border: none;
+    box-shadow:var(--clr-russian-white) 4px 4px;
+} 
+
+#german-remove {
+    position: relative;
+    top: -338px;
+    right: -511px;
+    width: 187px;
+    height: 40px;
+    transform: rotate(-82deg);
+    background-color: var(--clr-russian-blue);
+    color: var(--clr-russian-white);
+    border: none;
+    box-shadow:var(--clr-russian-white) 4px 4px;
+}
+
+#german-dice {
+    position: relative;
+    top: -251px;
+    right: -514px;
+    width: 64px;
+    height: 64px;
+    transform: rotate(8deg);
+    border-radius: 0 0 50% 50%;
+    background-color: var(--clr-russian-red);
+    color: var(--clr-russian-white);
+    border: none;
+    box-shadow:var(--clr-russian-white) 4px 4px;
+    font-size: 8px;
+}
+
+.output {
+    border: 4px solid var(--clr-russian-white);
+    background-color: var(--clr-russian-white);
+    border-radius: 8px;
+    width: 50%;
+}
+  
+.colored {
+    width: 100%;
+    height: 16px;
+}
+  
+.blue {
+    background-color: var(--clr-russian-blue);
+}
+  
+.red {
+    background-color: var(--clr-russian-red);
+}
+
+}
